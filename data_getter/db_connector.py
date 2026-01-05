@@ -29,7 +29,7 @@ class DBConnector:
     engine_name: str
     engine: Optional[Engine]
 
-    def __init__(self, host: str, port: int, user_name: str, password: str, dbname: str, engine_name: str):
+    def __init__(self, host: str, port: int, user_name: str, password: str, dbname: str, engine_name = 'postgresql+psycopg2'):
         self.host = host
         self.port = int(port)
         self.user_name = user_name

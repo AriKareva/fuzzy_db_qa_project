@@ -6,3 +6,5 @@ seaborn
 matplotlib
 scipy
 streamlit
+psycopg2
+psycopg2-binary

@@ -6,7 +6,7 @@ from fuzzy_system.summarizer import Summarizer
 
 
 print('Работа нечеткой системы оценки качества БД')
-parser = RuleParser('utils/rules_simple.json')
+parser = RuleParser()
 matrices = parser.get_relation_matrices()
 print(matrices)
 

@@ -5,6 +5,7 @@ from sqlalchemy.engine import Engine
 from data_getter.db_connector import DBConnector
 
 
+
 class UserDBManager:
     def __init__(self, 
                  db_connection: DBConnector,
