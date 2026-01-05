@@ -6,12 +6,12 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from seaborn import light_palette
 
-from functions import triangle_func
+from utils.functions import triangle_func
 from fuzzy_system.fuzzy_set import FuzzySet
 
 
 class RuleParser:
-    def __init__(self, rules_file='rules.json'):
+    def __init__(self, rules_file='utils/rules.json'):
         with open(rules_file, 'r', encoding='utf-8') as f:
             rules_data = json.load(f)
 
